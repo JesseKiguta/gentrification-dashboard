@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+joblib
+scikit-learn
+xgboost
+python-multipart
+python-jose
+python-dotenv
+shap
+geopandas
