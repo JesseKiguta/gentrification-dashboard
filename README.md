@@ -62,6 +62,8 @@ The primary goal is to offer stakeholders an exploratory and operational tool th
 
 ### API endpoints (high level)
 
+You can access the backend here: https://gentrification-dashboard-production.up.railway.app/docs/
+
 - `POST /predict?model_name=...` — predict a single-row input using a specific model. Body: `ModelInput` JSON (raw features). Returns `{ model, score, risk_category }`.
 - `POST /compare` — compare multiple models on a single input. Body: `{ models: [..], features: {...} }`.
 - `GET /map-predictions?subcounty=...&model=...&year=...` — return prediction for a subcounty and year using the stored `subcounty_reference.json` values.
@@ -86,6 +88,8 @@ If your pipeline prints transformed feature names, you'll see prefixes like `num
 ---
 
 ## Frontend
+
+You can access the frontend here: https://nairobi-gentrification-dashboard.vercel.app/
 
 ### Main pages & components (high level)
 
