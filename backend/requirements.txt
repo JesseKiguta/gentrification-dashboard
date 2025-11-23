@@ -8,5 +8,4 @@ xgboost
 python-multipart
 python-jose
 python-dotenv
-shap
 geopandas

@@ -1,0 +1,145 @@
+{
+    "models": {
+        "RandomForest": {
+            "rmse": 0.23993855331851957,
+            "feature_importance": {
+                "feature_names": [
+                    "Rent",
+                    "Food",
+                    "Transport",
+                    "Utilities",
+                    "Misc",
+                    "pop. density",
+                    "employment rate",
+                    "median_income",
+                    "household size",
+                    "dist_to_cbd_km",
+                    "neighbors",
+                    "year",
+                    "month",
+                    "quarter",
+                    "Subcounty_clean_embakasi",
+                    "Subcounty_clean_kasarani",
+                    "Subcounty_clean_langata",
+                    "Subcounty_clean_makadara",
+                    "Subcounty_clean_westlands"
+                ],
+                "values": [
+                    0.33779561643580713,
+                    0.1208491647754711,
+                    0.13395754704052287,
+                    0.08795947773014233,
+                    0.1362255714999659,
+                    0.021647197303711473,
+                    0.024639007405017684,
+                    0.026248057327738473,
+                    0.01898756301544148,
+                    0.012440710820946433,
+                    0.010770142680258872,
+                    0.01243820835061955,
+                    0.015698489923762087,
+                    0.007360146520165639,
+                    0.0015784247756433108,
+                    0.006499716291528159,
+                    0.017719509918231822,
+                    0.0007500277600704638,
+                    0.006435420424955144
+                ]
+            }
+        },
+        "XGBoost": {
+            "rmse": 0.2445956217216055,
+            "feature_importance": {
+                "feature_names": [
+                    "Rent",
+                    "Food",
+                    "Transport",
+                    "Utilities",
+                    "Misc",
+                    "pop. density",
+                    "employment rate",
+                    "median_income",
+                    "household size",
+                    "dist_to_cbd_km",
+                    "neighbors",
+                    "year",
+                    "month",
+                    "quarter",
+                    "Subcounty_clean_embakasi",
+                    "Subcounty_clean_kasarani",
+                    "Subcounty_clean_langata",
+                    "Subcounty_clean_makadara",
+                    "Subcounty_clean_westlands"
+                ],
+                "values": [
+                    2.548030376434326,
+                    0.5947730541229248,
+                    0.5883916616439819,
+                    0.48407161235809326,
+                    0.8223700523376465,
+                    4.450013637542725,
+                    7.775496959686279,
+                    9.879096984863281,
+                    0.1297554075717926,
+                    0.23223212361335754,
+                    0.14673960208892822,
+                    0.3951958417892456,
+                    0.4465830326080322,
+                    0.3799165189266205,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.19772444665431976
+                ]
+            }
+        },
+        "MLP": {
+            "rmse": 0.24137705190513498,
+            "feature_importance": {
+                "feature_names": [
+                    "Rent",
+                    "Food",
+                    "Transport",
+                    "Utilities",
+                    "Misc",
+                    "pop. density",
+                    "employment rate",
+                    "median_income",
+                    "household size",
+                    "dist_to_cbd_km",
+                    "neighbors",
+                    "year",
+                    "month",
+                    "quarter",
+                    "Subcounty_clean_embakasi",
+                    "Subcounty_clean_kasarani",
+                    "Subcounty_clean_langata",
+                    "Subcounty_clean_makadara",
+                    "Subcounty_clean_westlands"
+                ],
+                "values": [
+                    2.6829940953211833,
+                    0.153225924431664,
+                    0.044230776625719816,
+                    0.02621378613704759,
+                    0.047876975288861055,
+                    0.21963990003829909,
+                    0.4229403089827108,
+                    0.08673035801389486,
+                    0.1865669213520123,
+                    0.37549635061067116,
+                    0.02641337398974024,
+                    0.011722939130970778,
+                    0.014090284812193144,
+                    0.00826468398527438,
+                    0.0269720635378901,
+                    0.18202308972094222,
+                    0.0013487404179121309,
+                    0.02170343621661932,
+                    0.08127217602452193
+                ]
+            }
+        }
+    }
+}
