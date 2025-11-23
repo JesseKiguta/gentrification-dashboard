@@ -168,7 +168,7 @@ Model artifacts (joblib) are stored under `models/` and loaded at backend startu
 
 ### How predictions are converted to risk buckets
 
-The model output is a continuous score (can be negative). During analysis the team defined a conversion to qualitative risk levels using a symmetric threshold around zero (reflecting relative deviation). One working bucket function used in the app is:
+The model output is a continuous score (can be negative). During analysis, a conversion to qualitative risk levels was defined using a symmetric threshold around zero (reflecting relative deviation). One working bucket function used in the app is:
 
 ```python
 def pct_to_risk(value):
@@ -228,7 +228,6 @@ Use this function (or the equivalent thresholds in the backend) for consistent l
 
 - Keep feature names consistent between training and serving: prefer underscores for multi-word features.
 - When adding a new subcounty mapping, update `SUBCOUNTY_PARENT` mapping and `AVAILABLE_SUBCOUNTIES` lists in backend and frontend.
-- Add unit tests for endpoints (e.g. predict, compare) using pytest + TestClient for FastAPI.
 - Add E2E tests for frontend interactions (Cypress or Playwright).
 
 ---
@@ -286,15 +285,10 @@ Body: same ModelInput JSON as /predict
 
 ## Future Improvement
 - Full historical trend charts
-
 - Multilingual support
-
 - Mobile-friendly dashboard mode
-
 - Admin panel for model retraining
-
 - Automated scheduled reports
-
 - PostGIS integration
 
 ---
