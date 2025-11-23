@@ -9,3 +9,4 @@ python-multipart
 python-jose
 python-dotenv
 geopandas
+reportlab
