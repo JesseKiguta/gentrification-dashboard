@@ -443,3 +443,6 @@ def generate_report(
     return FileResponse(out_path, media_type="application/pdf", filename=fname)
 
 
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
